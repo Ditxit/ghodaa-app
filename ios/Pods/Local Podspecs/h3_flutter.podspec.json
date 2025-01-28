@@ -1,0 +1,31 @@
+{
+  "name": "h3_flutter",
+  "version": "0.4.2",
+  "summary": "H3 Flutter plugin",
+  "description": "H3 Flutter plugin",
+  "homepage": "https://github.com/festelo/h3_flutter",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Ilia Beregovskii": "festeloqq@gmail.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*.{m,c,swift}",
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}
